@@ -4,6 +4,8 @@
 - Image for homepage
 - background
 - logo
+- validator (html5, css3)
+- responsive
 
 Страници
 - Начало
