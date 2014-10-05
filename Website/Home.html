@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Начало</title>
-    <link rel="stylesheet" href="Styles/main.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="Home.html" title="Home">Начало</a></li>
-                    <li><a href="news.html" title="News">Новини</a></li>
-                    <li><a href="judge.html" title="Judge">Judge</a></li>
-                    <li><a href="softuni.html" title="SoftUni">SoftUni</a></li>
-                    <li>За отбора</li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <footer></footer>
+    <div id="header"></div>
+    <div id="content">
+        <h1>Example</h1>
+    </div>
+    <div id="footer"></div>
+
+    <script>
+        $('#header').load('header.html');
+        $('#footer').load('footer.html');
+</script>
 </body>
 </html>
