@@ -39,7 +39,6 @@ header {
     padding-right: 0;
     position: relative;
     min-height: 50px;
-
     border: 1px solid transparent;
     text-align: center;
 }
@@ -50,16 +49,27 @@ ul.nav {
     margin: auto;
 }
 
-.nav{
+.nav {
     list-style: none;
 }
 
 ul.nav > li {
     display: inline;
-    margin: 0;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     color: white;
     font-size: 22px;
 }
 
+.nav>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav>li:hover {
+    padding: 5px;
+    margin: 5px;
+    background-color: darkgoldenrod;
+    background-size: 100%;
+    border-radius: 10px;
+}
