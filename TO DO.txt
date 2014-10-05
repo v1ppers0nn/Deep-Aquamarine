@@ -12,3 +12,5 @@
 - SoftUni
 - За отбора
 - (смешки)
+
+Aquamarine color: #006666
