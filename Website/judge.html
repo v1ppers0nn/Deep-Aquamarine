@@ -1,10 +1,167 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
     <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+
 </head>
 <body>
+    <div id="wrapper">
+        <h1>Title</h1>
+        <h2>Submit a solution</h2>
+        <div class="content clear">
+            <div id="content_source_box">
+                <div id="source_box">
+                    <div id="sponge_bob">
+                        <img src="images/sponge_bob.gif" />
+                    </div>
+                    <textarea></textarea>
+                </div>
+                <select>
+                    <option>C#</option>
+                    <option>Java</option>
+                    <option>JavaScript</option>
+                    <option>PHP</option>
+                    <option>Mono</option>
+                </select>
+                <button id="submit" type="button">Submit</button>
+            </div>
+            <div id="content_students_results">
+                <table id="students_results">
+                    <tr>
+                        <th colspan="2">
+                            The results
+                        </th>
+                    </tr>
+                    <tr>
+                        <td width="60%">
+                            Student
+                        </td>
+                        <td>
+                            Beers(Points)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pesho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gosho
+                        </td>
+                        <td>
+                            Points
+                        </td>
+                    </tr>
 
+                </table>
+            </div>
+        </div>
+
+        <div id="results">
+            <table id="user_results">
+                <tr>
+                    <th colspan="3">
+                        Your final efforts!
+                    </th>
+                </tr>
+                <tr>
+                    <td>Beers</td>
+                    <td>Time wasted and memory loss</td>
+                    <td>to do....</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div id="load_result">
+
+    </div>
+    <script>
+        var counter = 0;
+        var row = '';
+        $('#submit').click(function () {
+            counter++;
+            $('#sponge_bob').css('display', 'block');
+
+            setTimeout(function () {
+                row = $('#load_result').load('page' + counter + '.html');
+                $('#sponge_bob').css('display', 'none');
+            }, 3000);
+
+            setTimeout(function () {
+                $('#user_results').append(row.html());
+            }, 3100);
+        });
+    </script>
 </body>
 </html>
