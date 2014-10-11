@@ -1,10 +1,9 @@
-
 footer {
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
-    padding: 20px 0 120px 20px;
+    padding: 20px 0 30px 20px;
     background: #006666;
 }
 
@@ -28,4 +27,18 @@ footer .footer-left {
 
 footer .footer-right {
     float: right;
+}
+
+p>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p>a:hover {
+    color: darkgoldenrod;
+    background-size: 100%;
+}
+
+h2 {
+    color: #efaf0d;
 }
