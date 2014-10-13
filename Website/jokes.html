@@ -13,7 +13,7 @@
 <div id="header"></div>
 <div id="content">
     <h1>Смешки</h1>
-    <form>
+    <form method="post" action="#">
     <div class="jokes clear">
         <div id="clips">Клипове
             <div>
@@ -38,10 +38,19 @@
                     </li>
                     <li class="li">
                         <a href="https://www.youtube.com/watch?v=2Tvy_Pbe5NA" title="java youtube">
-                            <img class="img"  src="data:image/jpeg;base64,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" alt="nerd vs geek">
+                            <img class="img"  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEkdr6_U4wbkMOdMJctcLfvE2JzHIyrMzn9JSzPpBcHaxhFh-jL1enWp3R" alt="nerd vs geek">
                         </a>
                         <label for="textArea3">Comment here:</label>
                         <textarea id="textArea3" type="text" rows="3" cols="24"></textarea>
+                        <input class="comment" type="submit" value="Comment" onclick="">
+                        <button class="share">Share</button>
+                    </li>
+                    <li class="li">
+                        <a href="https://www.youtube.com/watch?v=FiRZwBX3wZo" title="java vs .NET">
+                            <img class="img"  src="http://2.bp.blogspot.com/-oTfcmfpq7qg/TtoiRfhh0lI/AAAAAAAAAFU/KEgd9Ez792Q/s1600/dotnet-vs-java.jpg" alt=".NET vs Java">
+                        </a>
+                        <label for="textArea3.2">Comment here:</label>
+                        <textarea id="textArea3.2" type="text" rows="3" cols="24"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
                         <button class="share">Share</button>
                     </li>
@@ -52,9 +61,42 @@
         <div id="pics">Снимки
             <div>
                 <ul>
-                    <li class="li"></li>
-                    <li class="li"></li>
-                    <li class="li"></li>
+                    <li class="li">
+                        <a href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD" title="Chuck Norris">
+                            <img class="img"  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD" alt="Chuck Norris">
+                        </a>
+                        <label for="textArea4">Comment here:</label>
+                        <textarea id="textArea4" type="text" rows="3" cols="24"></textarea>
+                        <input class="comment" type="submit" value="Comment" onclick="">
+                        <button class="share">Share</button>
+                    </li>
+                    <li class="li">
+                        <a href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/programmer_quotes_05.png" title="Pointers">
+                            <img class="img"  src="http://www.addictiveblogs.com/wp-content/uploads/2013/08/programmer_quotes_05.png" alt="Pointers">
+                        </a>
+                        <label for="textArea5">Comment here:</label>
+                        <textarea id="textArea5" type="text" rows="3" cols="24"></textarea>
+                        <input class="comment" type="submit" value="Comment" onclick="">
+                        <button class="share">Share</button>
+                    </li>
+                    <li class="li">
+                        <a href="http://1.bp.blogspot.com/-5cFijd-enC8/TzgzjdrQM2I/AAAAAAAANvI/sFQdNukIe6Y/s400/Funny+t-shirts+on+the+Web-design+and+programming+texts1.png" title="Web designer">
+                            <img class="img"  src="http://1.bp.blogspot.com/-5cFijd-enC8/TzgzjdrQM2I/AAAAAAAANvI/sFQdNukIe6Y/s400/Funny+t-shirts+on+the+Web-design+and+programming+texts1.png" alt="Web designer">
+                        </a>
+                        <label for="textArea6">Comment here:</label>
+                        <textarea id="textArea6" type="text" rows="3" cols="24"></textarea>
+                        <input class="comment" type="submit" value="Comment" onclick="">
+                        <button class="share">Share</button>
+                    </li>
+                    <li class="li">
+                        <a href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/Programmer-Tech.jpg" title="Programmer">
+                            <img class="img"  src="http://www.addictiveblogs.com/wp-content/uploads/2013/08/Programmer-Tech.jpg" alt="Programmer">
+                        </a>
+                        <label for="textArea7">Comment here:</label>
+                        <textarea id="textArea7" type="text" rows="3" cols="24"></textarea>
+                        <input class="comment" type="submit" value="Comment" onclick="">
+                        <button class="share">Share</button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -62,6 +104,7 @@
         <div id="sketch">Вицове
             <div>
                 <ul>
+                    <li class="li"></li>
                     <li class="li"></li>
                     <li class="li"></li>
                     <li class="li"></li>
