@@ -68,7 +68,15 @@
                         <label for="textArea4">Comment here:</label>
                         <textarea id="textArea4" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=774976669189531&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
                     </li>
                     <li class="li">
                         <a href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/programmer_quotes_05.png" title="Pointers">
