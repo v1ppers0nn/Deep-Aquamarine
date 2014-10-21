@@ -1,0 +1,40 @@
+#content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+main>h1 {
+    margin: 40px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section>article {
+    box-sizing: border-box;
+    width: 48%;
+    background-color: #f0f0f0;
+    float: left;
+    font: 14px/1.5 Verdana;
+    padding: 20px;
+    border: 1px solid #efaf0d;
+    margin: 10px;
+}
+
+section>article>img {
+    width: 100%;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+section>article>h3 {
+    padding-bottom: 20px;
+    color: #858283;
+
+}
+
+section>article>p {
+    padding-top: 20px;
+}
