@@ -4,7 +4,7 @@ main {
 }
 
 main h2 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
     display: block;
     font-size: 2em;
     -webkit-margin-before: 0.67em;
@@ -27,6 +27,8 @@ main p {
 main form {
     text-align: center;
     font-weight: bolder;
+    border-bottom: 2px solid #ccc;
+    margin-bottom:20px;
 }
 
 main form input {
