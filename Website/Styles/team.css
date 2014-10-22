@@ -6,6 +6,7 @@
 main {
     width: 100%;
     margin-bottom: 100px;
+    height: 100%;
 }
 
 main>h1 {
@@ -17,7 +18,8 @@ section>article {
     box-sizing: border-box;
     width: 48%;
     background-color: #f0f0f0;
-    float: left;
+    display: inline-block;
+
     font: 14px/1.5 Verdana;
     padding: 20px;
     border: 1px solid #efaf0d;
