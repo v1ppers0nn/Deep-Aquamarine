@@ -13,6 +13,13 @@
 <div id="header"></div>
 <h1 id="h1Jokes">Смешки</h1>
 <div id="content" class="clear">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=774976669189531&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <form method="post" action="#">
     <div class="jokes">
         <div id="clips"><h3>Клипове</h3>
@@ -25,7 +32,7 @@
                         <label for="textArea1">Comment here:</label>
                         <textarea id="textArea1" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQ7aoYdy1s25JD35VN7eaC2ij5Eh3bx4lAcv6pNh74sURjPzq0"></button>
                     </li>
                     <li class="li">
                         <a href="https://www.youtube.com/watch?v=b-Cr0EWwaTk" title="java life">
@@ -34,7 +41,7 @@
                         <label for="textArea2">Comment here:</label>
                         <textarea id="textArea2" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="data:image/jpeg;base64,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"></button>
                     </li>
                     <li class="li">
                         <a href="https://www.youtube.com/watch?v=2Tvy_Pbe5NA" title="java youtube">
@@ -43,7 +50,7 @@
                         <label for="textArea3">Comment here:</label>
                         <textarea id="textArea3" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEkdr6_U4wbkMOdMJctcLfvE2JzHIyrMzn9JSzPpBcHaxhFh-jL1enWp3R"></button>
                     </li>
                     <li class="li">
                         <a href="https://www.youtube.com/watch?v=FiRZwBX3wZo" title="java vs .NET">
@@ -52,7 +59,7 @@
                         <label for="textArea3.2">Comment here:</label>
                         <textarea id="textArea3.2" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="http://2.bp.blogspot.com/-oTfcmfpq7qg/TtoiRfhh0lI/AAAAAAAAAFU/KEgd9Ez792Q/s1600/dotnet-vs-java.jpg"></button>
                     </li>
                 </ul>
             </div>
@@ -76,7 +83,7 @@
                             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=774976669189531&version=v2.0";
                             fjs.parentNode.insertBefore(js, fjs);
                         }(document, 'script', 'facebook-jssdk'));</script>
-                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
+                        <button class="fb-share-button" data-href=https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
                     </li>
                     <li class="li">
                         <a href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/programmer_quotes_05.png" title="Pointers">
@@ -85,16 +92,16 @@
                         <label for="textArea5">Comment here:</label>
                         <textarea id="textArea5" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
                     </li>
                     <li class="li">
                         <a href="http://1.bp.blogspot.com/-5cFijd-enC8/TzgzjdrQM2I/AAAAAAAANvI/sFQdNukIe6Y/s400/Funny+t-shirts+on+the+Web-design+and+programming+texts1.png" title="Web designer">
-                            <img class="img"  src="http://1.bp.blogspot.com/-5cFijd-enC8/TzgzjdrQM2I/AAAAAAAANvI/sFQdNukIe6Y/s400/Funny+t-shirts+on+the+Web-design+and+programming+texts1.png" alt="Web designer">
+                            <img class="img"  src="http://www.addictiveblogs.com/wp-content/uploads/2013/08/programmer_quotes_05.png" alt="Web designer">
                         </a>
                         <label for="textArea6">Comment here:</label>
                         <textarea id="textArea6" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
                     </li>
                     <li class="li">
                         <a href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/Programmer-Tech.jpg" title="Programmer">
@@ -103,7 +110,7 @@
                         <label for="textArea7">Comment here:</label>
                         <textarea id="textArea7" type="text" rows="3"></textarea>
                         <input class="comment" type="submit" value="Comment" onclick="">
-                        <button class="share">Share</button>
+                        <button class="fb-share-button" data-href="http://www.addictiveblogs.com/wp-content/uploads/2013/08/Programmer-Tech.jpg"></button>
                     </li>
                 </ul>
             </div>
@@ -112,10 +119,25 @@
         <div id="sketch"><h3>Вицове</h3>
             <div>
                 <ul class="ulJokes">
-                    <li class="li"></li>
-                    <li class="li"></li>
-                    <li class="li"></li>
-                    <li class="li"></li>
+                    <li class="li">Час по английски. Учителят:
+                        - Как е на английски гума?
+                        Син на програмист:
+                        - Бекспейс.
+                        <button class="fb-share-button" data-href="https://softuni.bg"></button>
+                    </li>
+                    <li class="li">Иванчо си купил компютър. Решил да си сложи парола и написал penis. Компютърът изписал:
+                        "Ключът е отхвърлен. Не е достатъчно дълъг''...
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
+                    </li>
+                    <li class="li">
+                        Програмист се разхожда в планината. Огледал заобикалящата го природа и си казал:
+                        - Каква яка графика!
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
+                    </li>
+                    <li class="li">
+                        Компютърът ми ме бие постоянно на шах. Затова пък аз винаги го бия на бокс!
+                        <button class="fb-share-button" data-href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYA-qfdD9tRXlyflraAy5p6B77FDRca88gRHH4LOQm5rGFuxeD"></button>
+                    </li>
                 </ul>
             </div>
         </div>

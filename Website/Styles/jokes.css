@@ -105,3 +105,12 @@ textarea {
     }
 }
 
+#sketch>div>ul>li {
+    text-align: left;
+}
+
+.fb-share-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
