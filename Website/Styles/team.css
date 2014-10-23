@@ -6,6 +6,7 @@
 main {
     width: 100%;
     margin-bottom: 100px;
+    height: 100%;
 }
 
 main>h1 {
@@ -15,9 +16,10 @@ main>h1 {
 
 section>article {
     box-sizing: border-box;
-    width: 48%;
+    width: 47%;
     background-color: #f0f0f0;
-    float: left;
+    display: inline-block;
+    border-radius: 15px;
     font: 14px/1.5 Verdana;
     padding: 20px;
     border: 1px solid #efaf0d;
@@ -27,6 +29,7 @@ section>article {
 section>article>img {
     width: 100%;
     box-shadow: 10px 10px 10px #888888;
+    border-radius: 15px;
 }
 
 section>article>h3 {

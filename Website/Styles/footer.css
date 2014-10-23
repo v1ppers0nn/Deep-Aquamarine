@@ -39,6 +39,7 @@ p>a:hover {
     background-size: 100%;
 }
 
-h2 {
+footer h2 {
     color: #efaf0d;
+    padding-bottom: 10px;
 }
