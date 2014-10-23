@@ -1,20 +1,13 @@
-﻿body {
-    padding: 0;
-    margin: 0;
-    font: 14px;
-    font-family: Georgia;
-    padding-top: 20px;
-
-}
-
-#wrapper {
-    width: 980px;
-    margin: 0 auto;
+﻿
+#content {
+    width: 70%;
+    margin: 50px auto 100px;
     border: 1px solid #b1befc;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 5px;
-   
+    font: 16px/1.5 Georgia, serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -23,10 +16,12 @@ h1 {
 }
 
 div#content_source_box {
+    width: 50%;
     float: left;
 }
 
 div#content_students_results {
+    width: 45%;
     float: right;
 }
 
@@ -35,7 +30,7 @@ div#results {
 }
 
 table#students_results {
-    width: 400px;
+    width: 100%;
 }
 
     table#students_results, table#students_results td {
@@ -43,6 +38,10 @@ table#students_results {
         border-radius: 5px;
         border-collapse: collapse;
     }
+
+#spongebob-judge {
+    width: 100%;
+}
 
 tr:nth-child(even) {
     background-color: #ddd;
@@ -52,10 +51,16 @@ table#user_results {
     width: 100%;
 }
 
-    table#user_results, table#user_results td {
+    table#user_results th:first-child {
+        width: 50%;
+    }
+
+    table#user_results,
+    table#user_results td,
+    table#user_results th {
         border: 1px solid grey;
-        border-radius: 5px;
         border-collapse: collapse;
+        padding: 5px;
     }
 
 tr:nth-child(even) {
@@ -114,7 +119,7 @@ tr:nth-child(even) {
 }
 
 textarea {
-    width: 500px;
+    width: 95%;
     height: 300px;
     background-color: #808080;
     color: #ffd800;
@@ -126,6 +131,7 @@ select {
 }
 
 #source_box {
+    width: 100%;
     position: relative;
 }
 
@@ -135,12 +141,25 @@ select {
     top: 0;
     left: 0;
     z-index: 10;
+    width: 100%;
 }
 
     #sponge_bob img {
-        width: 520px;
+        width: 100%;
         height: 320px;
     }
+
+#students_results img {
+    width: 20px;
+}
+
+#students_results td {
+    padding: 5px;
+}
+
+
+
+
 
 
 /* For recent browsers*/
