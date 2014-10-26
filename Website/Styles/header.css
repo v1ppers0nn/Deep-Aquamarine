@@ -49,7 +49,7 @@ ul.nav > li {
 .nav>li:hover {
     padding: 5px;
     margin: 5px;
-    background-color: darkgoldenrod;
+    background-color: #B8860B;
     background-size: 100%;
     border-radius: 10px;
 }
