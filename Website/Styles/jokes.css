@@ -18,7 +18,7 @@ article {
 
 }
 
-article>main>div {
+article>div {
     max-width: 95%;
     border: 2px solid gray;
     -moz-box-shadow: 0 0 5px 5px #888;
@@ -28,7 +28,7 @@ article>main>div {
     margin-right: auto;
 }
 
-article>main>div>p {
+article>div>p {
     padding: 5px;
 }
 

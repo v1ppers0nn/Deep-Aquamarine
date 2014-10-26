@@ -19,29 +19,38 @@ div#content main img {
     width: 80%;
 }
 
+div.register {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 main p {
     margin-bottom: 20px;
     padding: 0;
 }
 
-main form {
+main h3, main a button {
     text-align: center;
     font-weight: bolder;
-    border-bottom: 2px solid #ccc;
     margin-bottom:20px;
 }
 
-main form input {
+.register a {
+    text-decoration: none;
+    color: black;
+}
+
+.register a{
     background-color: #cb920d;
     color: white;
     font-size: 150%;
-    margin: 5px 0 10px 0;
+    margin: 5px auto 10px auto;
     padding:10px;
     border-radius: 10px;
     border: none;
 }
 
-main form input:hover {
+.register a:hover {
     background-color:#066;
 }
 

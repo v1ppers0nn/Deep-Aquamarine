@@ -8,25 +8,18 @@ footer {
 }
 
 .footer {
-    width: 1170px;
+    max-width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
-footer [class ^= 'footer-'] {
-    width: 33.3333%;
+article {
+    width: 33%;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
-}
-
-footer .footer-left {
-    float: left;
-}
-
-footer .footer-right {
-    float: right;
 }
 
 p>a {
@@ -42,4 +35,18 @@ p>a:hover {
 footer h2 {
     color: #efaf0d;
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+    article {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    article {
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+    }
 }
