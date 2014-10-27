@@ -6,6 +6,7 @@ div#content {
     border-radius: 20px;
     text-align: center;
     box-sizing: border-box;
+    font-family: Georgia, sans-serif;
 }
 
 section.jokes {
