@@ -14,6 +14,10 @@ header {
     font-family: Georgia;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container img {
     max-width: 100%;
 }
@@ -66,6 +70,18 @@ ul.nav > li {
     right: 15%;
 }
 
+@media only screen and (max-width: 1600px) {
+    .logoRight {
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .logoRight {
+        right: 1%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .logoLeft {
         left: 4%;
@@ -98,5 +114,12 @@ ul.nav > li {
     .logoRight {
         position: relative;
         float: right;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    header ul li{
+        display: none;
+        width: 100%;
     }
 }

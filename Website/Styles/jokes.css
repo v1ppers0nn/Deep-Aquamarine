@@ -69,6 +69,7 @@ div.fb-like {
     padding-left:5%;
 }
 
+
 /* For recent browsers*/
 .clear:before,
 .clear:after {
@@ -100,4 +101,8 @@ div.fb-like {
     section article {
         flex:1 98%;
     }
+}
+
+@media screen and (max-width: 660px) {
+
 }
