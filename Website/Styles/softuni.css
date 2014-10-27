@@ -4,15 +4,17 @@ main {
 }
 
 main h2 {
-    border-bottom: 3px solid #ccc;
-    display: block;
+    border-bottom: 1px solid #ccc;
     font-size: 2em;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    margin:1% 0;
     font-weight: bold;
     color: black;
+    display: block;
+}
+
+div#content main>a {
+    text-align: center;
+    display: block;
 }
 
 div#content main img {
@@ -54,5 +56,12 @@ main h3, main a button {
 
 .register a:hover {
     background-color:#066;
+}
+
+@media screen and (max-width: 780px) {
+    main h2{
+        font-size: 160%;
+        text-align: center;
+    }
 }
 
