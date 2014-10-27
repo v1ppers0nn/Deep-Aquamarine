@@ -27,6 +27,8 @@ div.register {
 main p {
     margin-bottom: 20px;
     padding: 0;
+    text-align: justify;
+    text-indent: 5%;
 }
 
 main h3, main a button {
