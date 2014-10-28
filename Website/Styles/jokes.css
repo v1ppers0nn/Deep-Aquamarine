@@ -18,9 +18,9 @@ section.jokes {
     flex:1 100%;
 }
 
-article {
+section.jokes article {
     flex:1 30%;
-    font-size: 150%;
+    font-size: 155%;
 }
 
 article>div {
