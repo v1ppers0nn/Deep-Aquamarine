@@ -119,3 +119,13 @@ div.background {
     0% {margin-left: 1000px;}
     100% {margin-left: -1000px;}
 }
+
+@media screen and (max-width: 1366px) {
+    div.background {
+        background: url("../images/homepage-1366.jpg");
+    }
+
+    div.rss {
+        top: 65%
+    }
+}
